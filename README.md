@@ -41,17 +41,14 @@ First of all you need to create a JSON file inside the measurement-points folder
       "codigo": 24002,
       "descripcion": "C.FCO.J.JIMENEZ ENTRE BERLANAS-SEPULVEDA E-O",
       "activo": true
-    },
-    .
-    .
-    .
+    }
   ]
 }
 ```
-"nombre de la zona": it will be used to name the excel file.
-"codigo": the code of the measurement point. It must match the same code that Madrid Open Data uses.
-"descripcion": simple description of the point. Madrid Traffic Reporter does not use it to fill any information, it just serves for indicate where is the measurement point.
-"activo": if you want to take some measures skipping one point but without delete it from the file, you can mark these field as false.
+* **"nombre de la zona"**: it will be used to name the excel file.
+* **"codigo"**: the code of the measurement point. It must match the same code that Madrid Open Data uses.
+* **"descripcion"**: simple description of the point. Madrid Traffic Reporter does not use it to fill any information, it just serves for indicate where is the measurement point.
+* **"activo"**: if you want to take some measures skipping one point but without delete it from the file, you can mark these field as false.
 
 Madrid Traffic Reporter can run in two modes:
   1. **Simple**: in this mode, it runs once and generates only one report.
@@ -59,5 +56,5 @@ Madrid Traffic Reporter can run in two modes:
 
 All the reports generated in the two modes are stored in the output folder.
 
-## License
+## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
