@@ -1,0 +1,26 @@
+{
+  "name": "madrid-traffic-reporter",
+  "version": "0.0.1",
+  "description": "Application that generates excel reports with the information about the traffic in Madrid",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniellara/madrid-traffic-reporter.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "Madrid",
+    "Open",
+    "Data",
+    "traffic"
+  ],
+  "author": "Daniel Lara <daniel.lara.diezma@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daniellara/madrid-traffic-reporter/issues"
+  },
+  "homepage": "https://github.com/daniellara/madrid-traffic-reporter#readme"
+}
