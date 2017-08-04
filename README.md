@@ -57,4 +57,4 @@ Madrid Traffic Reporter can run in two modes:
 All the reports generated in the two modes are stored in the output folder.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [https://github.com/daniellara/madrid-traffic-reporter/blob/master/LICENSE](LICENSE.md) file for details
