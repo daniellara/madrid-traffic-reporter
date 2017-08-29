@@ -4,11 +4,15 @@
   "description": "Application that generates excel reports with the information about the traffic in Madrid",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive test"
+    "test": "mocha --recursive test",
+    "postinstall": "mkdir ./measurement-points && mkdir ./outputs"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/daniellara/madrid-traffic-reporter.git"
+  },
+  "engines": {
+    "node": ">=6.10.3"
   },
   "keywords": [
     "NodeJS",
@@ -22,5 +26,12 @@
   "bugs": {
     "url": "https://github.com/daniellara/madrid-traffic-reporter/issues"
   },
-  "homepage": "https://github.com/daniellara/madrid-traffic-reporter#readme"
+  "homepage": "https://github.com/daniellara/madrid-traffic-reporter#readme",
+  "dependencies": {
+    "moment": "2.18.1",
+    "request": "2.81.0",
+    "xlsx-populate": "1.8.2",
+    "xml2js": "0.4.17",
+    "yargs": "8.0.2"
+  }
 }
