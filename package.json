@@ -1,6 +1,6 @@
 {
   "name": "madrid-traffic-reporter",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Application that generates excel reports with the information about the traffic in Madrid",
   "main": "index.js",
   "scripts": {
