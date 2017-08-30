@@ -28,7 +28,7 @@ This is all what you need to install Madrid Traffic Reporter in your computer.
 ### Usage
 Madrid Traffic Reporter runs using a shell (in future versions i will try to give a GUI to facilitate the use).
 
-First of all you need to create a JSON file inside the measurement-points folder where you specify the points that you want to include in the report. The JSON file must have the following structure:
+First of all you need to create a JSON file inside the measurement-points folder where you can specify the points that you want to include in the report. The JSON file must have the following structure:
 ```json
 {
   "nombre de la zona": [
@@ -52,9 +52,23 @@ First of all you need to create a JSON file inside the measurement-points folder
 
 Madrid Traffic Reporter can run in two modes:
   1. **Simple**: in this mode, it runs once and generates only one report.
-  2. **Continue** it runs every X minutes, generating one report per time.
+  2. **Continuous** it runs every X minutes, generating one report per time.
 
 All the reports generated in the two modes are stored in the output folder.
+
+Once you have defined the config file with your measurement points, you can start fetching the data and generating your reports.
+
+For a JSON config file named centro.json and running in simple mode, you can execute the following command in the root of the project:
+```
+node index.js centro.json simple
+```
+
+And in continuous mode:
+```
+node index.js centro.json continuous 5
+```
+(The number represent how often, in minutes, you want to fetch the data).
+
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/daniellara/madrid-traffic-reporter/blob/master/LICENSE) file for details
